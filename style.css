@@ -316,6 +316,10 @@ footer a {
   .catalog_link {
     width: 300px;
   }
+  .detailed {
+    margin-top: 380px;
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 1010px) {
@@ -373,6 +377,10 @@ footer a {
   .catalog_link {
     width: 280px;
   }
+  .detailed {
+    margin-top: 350px;
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -382,11 +390,21 @@ footer a {
   footer {
     flex-direction: column;
   }
+  .detailed {
+    margin-top: 320px;
+    margin-left: 25px;
+    width: 208px;
+    height: 48px;
+  }
 }
 
 @media (max-width: 630px) {
   .catalog_link {
     max-width: 240px;
+  }
+  .detailed {
+    margin-top: 280px;
+    margin-left: 16px;
   }
 }
 
@@ -394,11 +412,23 @@ footer a {
   .catalog_link {
     max-width: 220px;
   }
+  .detailed {
+    margin-top: 260px;
+    margin-left: 10px;
+    width: 198px;
+    height: 38px;
+  }
 }
 
 @media (max-width: 560px) {
   .catalog_link {
     max-width: 200px;
+  }
+  .detailed {
+    margin-top: 240px;
+    margin-left: 10px;
+    width: 178px;
+    height: 38px;
   }
 }
 
@@ -406,11 +436,23 @@ footer a {
   .catalog_link {
     max-width: 180px;
   }
+  .detailed {
+    margin-top: 220px;
+    margin-left: 0px;
+    width: 178px;
+    height: 38px;
+  }
 }
 
 @media (max-width: 500px) {
   .catalog_link {
     max-width: 155px;
+  }
+  .detailed {
+    margin-top: 180px;
+    margin-left: 10px;
+    width: 138px;
+    height: 38px;
   }
 }
 
