@@ -180,11 +180,12 @@ input {
 /* ПОДВАЛ */
 
 footer {
+    max-width: 1900px;
   min-height: 320px;
   background-color: black;
 }
 
-.footer {
+.footer_two{
   display: none;
 }
 
@@ -294,7 +295,7 @@ footer a {
   footer {
     display: none;
   }
-  .footer {
+  .footer_two {
     display: block;
   }
 }
