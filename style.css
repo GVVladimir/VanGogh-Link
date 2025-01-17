@@ -184,6 +184,10 @@ footer {
   background-color: black;
 }
 
+.footer {
+  display: none;
+}
+
 .footer_content {
   margin-top: 100px;
   padding-top: 75px;
