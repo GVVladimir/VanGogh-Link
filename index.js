@@ -13,7 +13,7 @@ const renderCatalog = () => {
             <button class='detailed'>Подробнее</button>
             <h2 class='catalog_name' >${catalog.name}</h2>
             <span class='catalogPrice'>
-            <p  class="catalog_price ">${catalog.price}</p>
+            <p  class="catalog_price">${catalog.price}</p>
             <p class="catalog_oldPrice">${catalog.oldPrice}</p>
             </span>
             </li>`;

@@ -180,12 +180,12 @@ input {
 /* ПОДВАЛ */
 
 footer {
-    max-width: 1900px;
+  max-width: 1900px;
   min-height: 320px;
   background-color: black;
 }
 
-.footer_two{
+.footer_two {
   display: none;
 }
 
@@ -417,5 +417,42 @@ footer a {
 @media (max-width: 460px) {
   .catalog {
     gap: 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .search {
+    display: none;
+  }
+
+  .footer_two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_end {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .catalog {
+    gap: 10px;
+  }
+  .product_title {
+    font-size: 38px;
+  }
+
+  .catalog_price {
+    font-size: 12px;
+  }
+
+  .catalog_oldPrice {
+    font-size: 12px;
   }
 }
